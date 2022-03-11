@@ -1,4 +1,4 @@
-import 'package:demo/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({Key? key}) : super(key: key);
@@ -178,6 +178,6 @@ any time""",
         PageTransition(
             duration: Duration(milliseconds: 600),
             type: PageTransitionType.fade,
-            child: Home())));
+            child: Home(title: 'Transactionly',))));
   }
 }

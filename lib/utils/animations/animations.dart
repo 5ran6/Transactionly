@@ -1,4 +1,4 @@
-import 'package:weight_tracker/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 import 'dart:math' as math;
 
 class Animations {

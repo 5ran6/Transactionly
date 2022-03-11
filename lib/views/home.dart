@@ -14,7 +14,9 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build with just a button
-    return Scaffold();
+    return Scaffold(
+      body: Text("Oya na"),
+    );
   }
 }
 

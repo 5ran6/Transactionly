@@ -1,4 +1,4 @@
-import 'package:weight_tracker/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 
 class CustomChip extends StatelessWidget {
   final String? title;

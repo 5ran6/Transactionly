@@ -1,4 +1,4 @@
-import 'package:weight_tracker/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 
 const kPrimaryColor = Color(0XFF317CFB);
 const kWhiteColor = Color(0XFFFFFFFF);

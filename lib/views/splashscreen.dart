@@ -1,4 +1,4 @@
-import 'package:demo/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen>
                   PageTransition(
                       duration: Duration(milliseconds: 600),
                       type: PageTransitionType.fade,
-                      child: Home()));
+                      child: Home(title: "Transactionly",)));
             }));
   }
 

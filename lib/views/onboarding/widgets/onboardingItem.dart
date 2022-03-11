@@ -1,4 +1,4 @@
-import 'package:demo/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 
 class OnBoardingItem extends StatelessWidget {
   final String? imageAsset;

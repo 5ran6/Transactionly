@@ -1,4 +1,4 @@
-import 'package:weight_tracker/imports/imports.dart';
+import 'package:transactionly/imports/imports.dart';
 
 /*This class have all colors that are used in the application.
   For example if i needed to access the "primaryColor" I would
@@ -6,7 +6,7 @@ import 'package:weight_tracker/imports/imports.dart';
 class AppTheme {
   AppTheme._();
 
-  final primaryColor = Color(0XFF317CFB);
+  final primaryColor = Color(0XFFC73EF5);
   final whiteColor = Color(0XFFFFFFFF);
   static final greyColor1 = Color(0XFF5B5B5B);
   static final greyColor2 = Color(0XFF6B6B6B);
@@ -41,7 +41,7 @@ class AppTheme {
   static final String mediumFontFamily = "Ubuntu-Medium";
   static final Color loginCard = Colors.white.withOpacity(0.98);
   static final Color loadingColor = blueTheme;
-  static final Color blueTheme = Color(0XFF317CFB);
+  static final Color blueTheme = Color(0XFFC73EF5);
   static final Color iconContainerColor = AppTheme.blueTheme.withOpacity(0.8);
   static final kPrimaryColor = Color(0XFF317CFB);
   static final kWhiteColor = Color(0XFFFFFFFF);
