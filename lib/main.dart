@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       builder: () => MaterialApp(
         title: 'Transactionly',
         theme: AppTheme.lightTheme,
-        home: const Home(title: 'Transactionly'),
+        home: SplashScreen(),
       ),
     );
   }

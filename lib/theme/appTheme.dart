@@ -43,7 +43,7 @@ class AppTheme {
   static final Color loadingColor = blueTheme;
   static final Color blueTheme = Color(0XFFC73EF5);
   static final Color iconContainerColor = AppTheme.blueTheme.withOpacity(0.8);
-  static final kPrimaryColor = Color(0XFF317CFB);
+  static final kPrimaryColor = Color(0XFFC73EF5);
   static final kWhiteColor = Color(0XFFFFFFFF);
   static final kBlackColor = Color(0XFF000000);
   static final kDescriptionTextColor = Color(0XFF002434);

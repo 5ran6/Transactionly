@@ -1,6 +1,6 @@
 import 'package:transactionly/imports/imports.dart';
 
-const kPrimaryColor = Color(0XFF317CFB);
+const kPrimaryColor = Color(0XFF6528C8);
 const kWhiteColor = Color(0XFFFFFFFF);
 const kBlackColor = Color(0XFF000000);
 const kDescriptionTextColor = Color(0XFF002434);
