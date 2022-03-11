@@ -6,7 +6,7 @@ import 'package:transactionly/imports/imports.dart';
 class AppTheme {
   AppTheme._();
 
-  final primaryColor = Color(0XFFC73EF5);
+  final primaryColor = Color(0XFF70648C);
   final whiteColor = Color(0XFFFFFFFF);
   static final greyColor1 = Color(0XFF5B5B5B);
   static final greyColor2 = Color(0XFF6B6B6B);

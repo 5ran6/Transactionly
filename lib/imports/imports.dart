@@ -25,12 +25,12 @@ export 'package:transactionly/theme/appTheme.dart';
 export 'package:transactionly/utils/constants.dart';
 
 
-
 //------------------------SERVICES----------------------------------------------
 export 'package:transactionly/services/api.dart';
 
 //------------------------MODELS------------------------------------------------
-export 'package:transactionly/models/user.dart';
+export 'package:transactionly/models/transactions.dart';
+export 'package:transactionly/models/json.dart';
 
 //------------------------WIDGETS-----------------------------------------------
 export 'package:transactionly/utils/widgets/CustomButton.dart';
