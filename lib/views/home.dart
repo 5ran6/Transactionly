@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:transactionly/imports/imports.dart';
 
 //enum to declare 3 state of button
@@ -27,9 +26,9 @@ class _HomeState extends State<Home> {
       body: Container(
         color: Colors.white,
         alignment: Alignment.center,
-        padding: EdgeInsets.all(40),
+        padding: const EdgeInsets.all(40),
         child: AnimatedContainer(
-            duration: Duration(milliseconds: 300),
+            duration: const Duration(milliseconds: 300),
             onEnd: () => setState(() {
                   isAnimating = !isAnimating;
                 }),
@@ -52,11 +51,11 @@ class _HomeState extends State<Home> {
             state = ButtonState.requesting;
           });
           //await 2 sec // you need to implement your server response here.
-          await Future.delayed(Duration(seconds: 2));
+          await Future.delayed(const Duration(seconds: 2));
           setState(() {
             state = ButtonState.completed;
           });
-          await Future.delayed(Duration(seconds: 2));
+          await Future.delayed(const Duration(seconds: 2));
           setState(() {
             state = ButtonState.init;
           });

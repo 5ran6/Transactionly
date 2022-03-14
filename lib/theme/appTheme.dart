@@ -110,7 +110,7 @@ class AppTheme {
     canvasColor: Colors.transparent,
     hoverColor: Colors.transparent,
     primaryColor: kPrimaryColor,
-    iconTheme: IconThemeData(
+    iconTheme: const IconThemeData(
       color: Colors.grey,
     ),
   );

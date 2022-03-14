@@ -1,5 +1,6 @@
 import 'package:transactionly/imports/imports.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       builder: () => MaterialApp(
         title: 'Transactionly',
         theme: AppTheme.lightTheme,
-        home: SplashScreen(),
+        home: const Transactions(),
       ),
     );
   }

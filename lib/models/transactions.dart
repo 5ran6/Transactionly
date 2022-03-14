@@ -1,4 +1,4 @@
-class Transactions {
+class Transaction {
   final int transactionId;
   final String? type;
   final int? amount;
@@ -7,7 +7,7 @@ class Transactions {
   final String? currencyCode;
   final String? balance;
 
-  Transactions(
+  Transaction(
       {required this.transactionId,
       this.type,
       this.amount,
@@ -15,6 +15,18 @@ class Transactions {
       this.entryDate,
       this.currencyCode,
       this.balance});
+
+  factory Transaction.fromJson(Map<String, dynamic> json) {
+    return Transaction(
+        transactionId: json['transactionId'],
+        type: json['type'],
+        amount: json['amount'],
+        comment: json['comment'],
+        entryDate: json['entryDate'],
+        currencyCode: json['currencyCode'],
+        balance: json['balance']);
+  }
+
 
   Map<String, dynamic> toJson() => {
         'transactionId': transactionId,
