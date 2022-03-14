@@ -23,8 +23,8 @@ class _TransactionsState extends State<Transactions> {
         leading: InkWell(
             child:  Container(
               child: SvgPicture.asset("assets/left_arrow.svg"),
-              height: ScreenUtil().setHeight(20),
-              width: ScreenUtil().setWidth(20),
+              height: ScreenUtil().setHeight(8),
+              width: ScreenUtil().setWidth(8),
             ),
             onTap: () {
               Navigator.pop(context);
